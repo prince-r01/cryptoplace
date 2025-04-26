@@ -19,7 +19,7 @@ const CryptoTable = () => {
         <p className=" hidden md:block market-cap">Market Cap</p>
       </div>
       {displayCoin.slice(0,10).map((item,index) => {
-            return ( <Link to={`/crypto-place/coin/${item.id}`} key={index} className="coin grid grid-cols-5 md:grid-cols-7  md:gap-2 text-white px-2 md:px-8 p-4 border-b-[0.1px] border-[#16a34a8f] cursor-pointer">
+            return ( <Link to={`/cryptoplace/coin/${item.id}`} key={index} className="coin grid grid-cols-5 md:grid-cols-7  md:gap-2 text-white px-2 md:px-8 p-4 border-b-[0.1px] border-[#16a34a8f] cursor-pointer">
                 <p className="col-span-1 place-content-center mr-6 ">{item.market_cap_rank}</p>
                 <div className="col-span-2 md:col-span-2 place-content-center w-48 flex items-center justify-self-end md:justify-start gap-2">  <img className= 'size-8' src={item.image} alt=""/>
                     <p>{item.name} - {item.symbol}</p>

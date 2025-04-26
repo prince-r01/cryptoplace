@@ -40,10 +40,10 @@ const Navbar = () => {
     }
   return (
     <div className ="navbar flex w-full px-2 md:px-16 py-5 items-center justify-between border-b-2 border-gray-700 ">
-    <Link to ="/crypto-place">
+    <Link to ="/cryptoplace">
     <img src={logo} alt="" className='logo h-8 '/></Link>
     <ul className='hidden  md:flex gap-8 text-white '>
-        <Link to ="/crypto-place">
+        <Link to ="/cryptoplace">
          <li>Home</li></Link>
          <li>Features</li>
          <li>Pricing</li>
